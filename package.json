@@ -1,0 +1,17 @@
+{
+  "name": "summarized.dev",
+  "scripts": {
+    "start": "imba -w server.imba",
+    "build": "imba build server.imba"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "imba": "^2.0.0-alpha.146"
+  },
+  "repository": "friedow/summarized.dev",
+  "description": "summarized.dev website including its content",
+  "version": "1.0.0",
+  "homepage": "https://github.com/friedow/summarized.dev",
+  "author": "Author Name (https://github.com/friedow)",
+  "license": "MIT"
+}
