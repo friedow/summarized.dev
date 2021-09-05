@@ -6,7 +6,7 @@ export default tag Posts
 	posts\Array
 
 	def build
-		const postsResponse = await window.fetch "/posts"
+		const postsResponse = await window.fetch "/api/posts"
 		const postsText = await postsResponse.text!
 		this.posts = yaml.parse postsText
 		imba.commit!
