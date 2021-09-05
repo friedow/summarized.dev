@@ -20,7 +20,7 @@ export default tag PostAction
 
 	def render
 		<self>
-			<li [m:{margin} p:0.4rem 0.6rem rd:1rem tt:uppercase td:none bgc:{bgColor} c:{txtColor} cursor:pointer d:flex ai:center fs:0.7rem]>
+			<li [m:{margin} p:0.4rem 0.6rem rd:1rem tt:uppercase bgc:{bgColor} c:{txtColor} cursor:pointer d:flex ai:center fs:0.7rem]>
 				if icon
 					<[w:1em h:1em d:flex ai:center mr:0.2rem]>
 						<i .gg-{icon} [transform:scale(0.6)]>
