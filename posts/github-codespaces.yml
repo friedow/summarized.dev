@@ -1,0 +1,6 @@
+date: 2021-09-05
+post: Fully featured development environment in your browser which can be opened right out of GitHub. And, who would have guessed, its docker based.
+link: https://github.com/features/codespaces
+tags:
+  - dev-ops
+  - docker

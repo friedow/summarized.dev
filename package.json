@@ -1,12 +1,14 @@
 {
   "name": "summarized.dev",
   "scripts": {
-    "start": "imba -w server.imba",
-    "build": "imba build server.imba"
+    "start": "npm run build:posts-yml && imba -w server.imba",
+    "build": "npm run build:posts-yml && imba build server.imba",
+    "build:posts-yml": "node scripts/build-posts-yml.mjs"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "imba": "^2.0.0-alpha.146"
+    "imba": "^2.0.0-alpha.146",
+    "yaml": "^1.10.2"
   },
   "repository": "friedow/summarized.dev",
   "description": "summarized.dev website including its content",
