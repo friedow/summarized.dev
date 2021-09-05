@@ -1,7 +1,7 @@
 global css html
 	--color-bg:#101213
 	--color-bg-post:#1e2021
-	--color-bg-tag:#ff7202
+	--color-bg-tag:#7e325a
 	--color-txt:warm2
 
 global css html
