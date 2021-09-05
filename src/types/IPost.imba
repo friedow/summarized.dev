@@ -1,5 +1,5 @@
 export default class IPost
 	date\string
-	post\string
+	text\string
 	link\string
 	tags\Array<string>
