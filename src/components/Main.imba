@@ -1,4 +1,4 @@
-import Posts from './Posts.imba';
+import Posts from '../components/Posts.imba';
 
 export default tag Main
 	def render

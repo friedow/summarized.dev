@@ -1,5 +1,5 @@
 import type IPost from './types/IPost.imba'
-import IPost from './types/IPost.imba';
+import IPost from '../types/IPost.imba';
 
 export default tag Post
 	post\IPost

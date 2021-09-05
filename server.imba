@@ -1,5 +1,5 @@
 import express from 'express'
-import index from './app/index.html'
+import index from './src/index.html'
 
 const app = express!
 
