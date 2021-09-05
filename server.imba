@@ -3,7 +3,7 @@ import index from './app/index.html'
 
 const app = express!
 
-app.use express.static('dist/public')
+app.use('/api', express.static('dist/public/api'))
 
 # catch-all route that returns our index.html
 app.get(/.*/) do(req,res)
