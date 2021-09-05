@@ -9,6 +9,9 @@ global css html
 	bgc:var(--color-bg)
 	c:var(--color-txt)
 
-
 global css body
 	m:0
+
+global css a
+	td:none
+	c:var(--color-txt)
