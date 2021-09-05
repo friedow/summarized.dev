@@ -6,5 +6,5 @@ export default tag Post
 
 	def render
 		<self>
-			<h1> post.post
+			<h1> post.text
 			<a href=post.link> "Website"
