@@ -5,6 +5,6 @@ export default tag Posts
 	postsStore = new PostsStore
 
 	def render
-		<self>
+		<self [max-width:480px]>
 			<h1> "Posts"
 			<Post post=post> for post in this.postsStore.posts

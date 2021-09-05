@@ -1,8 +1,9 @@
 import Main from './components/Main.imba';
 import './Theme.imba'
 
-tag app
-	<self>
-		<Main>
+tag App
+	def render
+		<self [d:flex fld:column ai:center]>
+			<Main>
 
-imba.mount <app>
+imba.mount <App>
