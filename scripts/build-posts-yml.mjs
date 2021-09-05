@@ -23,7 +23,7 @@ function getPost(postFile) {
 function writePostsYml(posts) {
   const postsFileContent = yaml.stringify(posts);
   if (!fs.existsSync(DIST_PATH)) fs.mkdirSync(DIST_PATH, { recursive: true });
-  fs.writeFileSync(`${DIST_PATH}/posts.yml`, postsFileContent);
+  fs.writeFileSync(`${DIST_PATH}/posts`, postsFileContent);
 }
 
 try {
