@@ -2,8 +2,9 @@
   "name": "summarized.dev",
   "scripts": {
     "start": "npm run build:posts-yml && imba -w server.imba",
-    "build": "npm run build:posts-yml && imba build server.imba",
-    "build:posts-yml": "node scripts/build-posts-yml.mjs"
+    "build": "npm run build:posts-yml && build:add-robots && imba build server.imba",
+    "build:posts-yml": "node scripts/build-posts-yml.mjs",
+    "build:add-robots": "mkdir -p dist/public && cp src/robots.txt dist/public/robots.txt"
   },
   "dependencies": {
     "css.gg": "^2.0.0",
