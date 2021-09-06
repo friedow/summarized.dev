@@ -1,0 +1,16 @@
+- date: 2021-09-05
+  text: Fully featured development environment in your browser which can be opened
+    right out of GitHub. And, who would have guessed, its docker based.
+  link: https://github.com/features/codespaces
+  tags:
+    - dev-ops
+    - docker
+- date: 2021-09-05
+  text: Full-stack programming language which transpiles to JavaScript. It takes
+    an innovative approach on frontend development by making components and css
+    first class citizens.
+  link: https://imba.io/
+  tags:
+    - front
+    - back
+    - js
