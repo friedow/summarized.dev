@@ -2,10 +2,9 @@
   "name": "summarized.dev",
   "scripts": {
     "start": "npm run build:posts-yml && imba -w server.imba",
-    "build": "npm run build:posts-yml && npm run build:add-robots && npm run build:add-cname && imba build server.imba",
+    "build": "npm run build:posts-yml && npm run build:copy-static-files && imba build server.imba",
     "build:posts-yml": "node scripts/build-posts-yml.mjs",
-    "build:add-robots": "mkdir -p dist/public && cp src/robots.txt dist/public/robots.txt",
-    "build:add-cname": "mkdir -p dist/public && cp src/CNAME dist/public/CNAME"
+    "build:copy-static-files": "mkdir -p dist/public && cp -r static/ dist/public/"
   },
   "dependencies": {
     "css.gg": "^2.0.0",
