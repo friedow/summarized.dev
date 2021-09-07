@@ -25,4 +25,4 @@ export default tag PostAction
 					<[w:1em h:1em d:flex ai:center mr:0.2rem]>
 						<i .gg-{icon} [transform:scale(0.6)]>
 				if text
-					<span [lh:1em fw:600]> text
+					<span [lh:1em]> text

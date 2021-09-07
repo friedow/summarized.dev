@@ -1,9 +1,23 @@
 @font-face {
     font-family: "Raleway";
+    font-weight: 600;
     src: 
-        url("/fonts/Raleway-Regular.eot") format("embedded-opentype"),
-        url("/fonts/Raleway-Regular.otf") format("opentype"),
-        url("/fonts/Raleway-Regular.svg") format("svg"),
-        url("/fonts/Raleway-Regular.ttf") format("truetype"),
-        url("/fonts/Raleway-Regular.woff") format("woff");
+        url("/fonts/Raleway-Bold.eot") format("embedded-opentype"),
+        url("/fonts/Raleway-Bold.otf") format("opentype"),
+        url("/fonts/Raleway-Bold.svg") format("svg"),
+        url("/fonts/Raleway-Bold.ttf") format("truetype"),
+        url("/fonts/Raleway-Bold.woff") format("woff"),
+        url("/fonts/Raleway-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-weight: 400;
+    src: 
+        url("/fonts/Raleway-Light.eot") format("embedded-opentype"),
+        url("/fonts/Raleway-Light.otf") format("opentype"),
+        url("/fonts/Raleway-Light.svg") format("svg"),
+        url("/fonts/Raleway-Light.ttf") format("truetype"),
+        url("/fonts/Raleway-Light.woff") format("woff"),
+        url("/fonts/Raleway-Light.woff2") format("woff2");
 }
