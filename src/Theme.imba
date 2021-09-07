@@ -1,3 +1,5 @@
+import "./fonts.css"
+
 global css html
 	--color-bg:#101213
 	--color-bg-post:#1e2021
@@ -5,7 +7,7 @@ global css html
 	--color-txt:warm2
 
 global css html
-	ff:sans
+	ff:"Raleway"
 	bgc:var(--color-bg)
 	c:var(--color-txt)
 

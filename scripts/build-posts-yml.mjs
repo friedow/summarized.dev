@@ -2,7 +2,7 @@ import fs from 'fs';
 import yaml from 'yaml';
 
 const POSTS_PATH = 'posts';
-const DIST_PATH = 'dist/public/api';
+const DIST_PATH = 'static/api';
 
 
 function createPostsYml() {
