@@ -4,7 +4,7 @@
     "start": "npm run build:posts-yml && imba -w server.imba",
     "build": "npm run build:posts-yml && npm run build:copy-static-files && imba build server.imba",
     "build:posts-yml": "node scripts/build-posts-yml.mjs",
-    "build:copy-static-files": "mkdir -p dist/public && cp -r static/ dist/public/"
+    "build:copy-static-files": "mkdir -p dist/public && cp -r static/** dist/public/"
   },
   "dependencies": {
     "css.gg": "^2.0.0",
