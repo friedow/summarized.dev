@@ -1,0 +1,8 @@
+date: 2021-11-22
+text: Typescript decorators for express.js. Very useful to keep express.js based code maintainable.
+link: https://www.npmjs.com/package/@decorators/express
+tags:
+  - typescript
+  - decorators
+  - express.js
+  - clean-code
