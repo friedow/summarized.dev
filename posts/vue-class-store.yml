@@ -1,0 +1,9 @@
+date: 2021-11-22
+text: A simple, yet powerful solution for state management in Vue.js. It utilizes TypeScript decorators to create reactive store objects.
+link: https://www.npmjs.com/package/vue-class-store
+tags:
+  - typescript
+  - decorators
+  - vue.js
+  - state-management
+  - clean-code
