@@ -1,0 +1,9 @@
+date: 2021-11-24
+text: TypeGraphQL simplifies the combination of TypeScript, Node.js and GraphQL. By providing TypeScript decorators for for every aspect of GraphQL there is no more string-juggeling needed.
+link: https://typegraphql.com/
+tags:
+  - typescript
+  - decorators
+  - graph-ql
+  - node.js
+  - clean-code
